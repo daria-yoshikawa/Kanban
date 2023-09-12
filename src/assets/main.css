@@ -1,0 +1,19 @@
+@import './base.css';
+
+#app {
+  min-height: 100vh;
+  font-weight: normal;
+}
+
+.menu-link.router-link-active {
+  color: var(--text-secondary);
+  background-color: var(--greenLight);
+}
+
+.menu-link.router-link-active svg {
+  fill: var(--text-secondary);
+}
+
+.menu-link-admin.router-link-active {
+  background-color: var(--greenLight);
+}
